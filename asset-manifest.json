@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/CatApp/static/js/main.c1d8523a.js",
+    "index.html": "/CatApp/index.html",
+    "main.c1d8523a.js.map": "/CatApp/static/js/main.c1d8523a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c1d8523a.js"
+  ]
+}
