@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.74f3857e.js",
-    "index.html": "/index.html",
-    "main.74f3857e.js.map": "/static/js/main.74f3857e.js.map"
+    "main.js": "/CatApp/static/js/main.74f3857e.js",
+    "index.html": "/CatApp/index.html",
+    "main.74f3857e.js.map": "/CatApp/static/js/main.74f3857e.js.map"
   },
   "entrypoints": [
     "static/js/main.74f3857e.js"
