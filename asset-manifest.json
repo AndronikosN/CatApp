@@ -1,7 +1,7 @@
 {
   "files": {
     "main.js": "/static/js/main.74f3857e.js",
-    "index.html": "/index.html",
+    "index.html": "CatApp/index.html",
     "main.74f3857e.js.map": "/static/js/main.74f3857e.js.map"
   },
   "entrypoints": [
