@@ -69,6 +69,7 @@ const Favorites = () => {
         <IconButton onClick={() => {deleteItem(item.id)}}>
           <HeartBrokenIcon sx={{color:"red"}} />
         </IconButton>
+        
       </CardActions>
       </Card>
       )))
