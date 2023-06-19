@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
-import { AppBar, Button, Icon, IconButton, Stack, Toolbar, Typography } from '@mui/material'
+import { AppBar, Button, Icon, IconButton, Stack, Switch, Toolbar, Typography } from '@mui/material'
 import styled from '@emotion/styled'
 import { Logout, Pets } from '@mui/icons-material';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { Link } from 'react-router-dom';
 
 
@@ -21,6 +22,10 @@ const Header = () => {
         }
       }, [logged]);
 
+      const handleChange = () => {
+        localStorage.setItem("darkmode",true);
+      }
+
   return (
     <div>
         {
@@ -34,6 +39,12 @@ const Header = () => {
                 </Icon>
                 CatApp
             </Typography>
+            <Stack direction="row">
+            <Icon>
+            <DarkModeIcon onChange={handleChange} sx={{fontSize:"medium"}}/>
+            </Icon>
+            <Switch />
+            </Stack>
             <Stack direction="row" spacing={2}>
                 <Link to={"/cats"}>
                 <Button color="inherit">Cats</Button>

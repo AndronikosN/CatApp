@@ -15,13 +15,13 @@ const Login1 = () => {
     const navigate = useNavigate();
 
     localStorage.setItem("logged",false);
-    
+
     const handleEditing = () => {
         navigate('Cats');
     };
   
     const [credentials, setCredentials] = useState({
-        username: "",
+        username:"",
         password:""
     });
   
