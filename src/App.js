@@ -7,7 +7,7 @@ import { ThemeProvider } from '@emotion/react';
 
 const darkTheme = createTheme({
   palette: {
-    mode:'dark',
+    mode:'light',
   },
 })
 
