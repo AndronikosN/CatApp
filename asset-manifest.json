@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/CatApp/static/js/main.8184c22c.js",
+    "main.js": "/CatApp/static/js/main.dc2ca828.js",
     "index.html": "/CatApp/index.html",
-    "main.8184c22c.js.map": "/CatApp/static/js/main.8184c22c.js.map"
+    "main.dc2ca828.js.map": "/CatApp/static/js/main.dc2ca828.js.map"
   },
   "entrypoints": [
-    "static/js/main.8184c22c.js"
+    "static/js/main.dc2ca828.js"
   ]
 }
